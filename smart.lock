@@ -4,7 +4,8 @@
     "basePackages": {
       "famono": {},
       "iron-router": {},
-      "scss": {}
+      "scss": {},
+      "famous-components": {}
     },
     "packages": {
       "famono": {
@@ -22,10 +23,20 @@
         "tag": "v0.8.7",
         "commit": "d085b7272eacc20866abff61b25c915a22ddbcf4"
       },
+      "famous-components": {
+        "git": "https://github.com/gadicc/meteor-famous-components.git",
+        "tag": "v0.0.11",
+        "commit": "5af796b2253490d7a93950bb3b14241b9610e8fe"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
         "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      },
+      "pince": {
+        "git": "https://github.com/mad-eye/pince.git",
+        "tag": "v0.0.5",
+        "commit": "4524ecc0bdf043c49dc62e91bbd8a99c661081ed"
       }
     }
   }

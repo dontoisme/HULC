@@ -9,6 +9,33 @@ The goals of the HULC are to webify a tool that my Grandpa has been using for ye
 - Once logged in can start to edit the details for a calcuation.
     + Create new Company (most likely used the first time.
     + Create new Operator
-    + Create new Field
+    + Create new Field with Details
+    + Calculation
+    + Calculation Results (Save or Print)
+        * Visualization + Table Data
 
-todo: finish the README
+A company can have many operators, can work on many fields. We aren't caculating on a per well basis. Phew. Each calculation should be saved for the Field at the time it is run, and can be [Future] compared to other calculations.
+
+# Todo
+- [ ] Splash page with Login
+- [ ] Set up Collections for:
+    - [ ] Company
+    - [ ] Operator
+    - [ ] Field
+    - [ ] Results
+- [ ] Page to create new:
+    - [ ] Company (Part of initial login) create a company.
+    - [ ] Operator
+    - [ ] Field
+    - [ ] Calculation
+- [ ] Page to list/view:
+    - [ ] Company (make this part of the account)
+    - [ ] Operators
+    - [ ] Fields
+    - [ ] Results
+- [ ] Calculate Results and have proper output.
+    - [ ] Save as PDF or print
+
+
+
+
